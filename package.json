@@ -1,0 +1,27 @@
+{
+  "name": "woodstock-obd-api",
+  "version": "0.1.0",
+  "description": "Woodstock OBD API",
+  "author": "BikeKoala",
+  "license": "ISC",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "prod": "TZ='Asia/Shanghai' RUNTIME_ENV=prod node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bikekoala/woodstock-obd-api.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/register": "^7.18.9",
+    "dotenv": "^16.0.2",
+    "koa": "^2.13.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "log-symbols": "^5.1.0",
+    "moment": "^2.29.4"
+  }
+}
